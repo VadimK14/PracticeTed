@@ -41,7 +41,8 @@ nav{
     display: none;
 }
 
-@media screen and (max-width: 1010px) {
+
+@media screen and (max-width: 1254px) {
     .topnav a{
         display: none;
     }
@@ -71,5 +72,6 @@ nav{
     .topnav.responsive a{
         float: none;
         display: block;
+        text-align: center;
     }
 }
