@@ -40,6 +40,31 @@ nav{
 .topnav .icon{
     display: none;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+main .main__welcome{
+    background: #000;
+    text-align: center;
+    padding: 200px 0 410px 0;
+}
+main .main__welcome p{
+    color: #999999;
+    font-size: 30px;
+}
+main .main__welcome h1{
+    color: #999999;
+    font-size: 54px;
+}
+.mycompany{
+    color: aqua;
+}
+
+
+
+
 
 
 @media screen and (max-width: 1254px) {
