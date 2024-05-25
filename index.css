@@ -61,7 +61,31 @@ main .main__welcome h1{
 .mycompany{
     color: aqua;
 }
-
+.wrapper{
+    width: 76%;
+    margin: 0 auto;
+}
+main .main__about{
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+.about__right{
+    margin-left: 172px;
+}
+.about__right h1{
+    display: inline-block;
+    border-bottom: 3px solid #f00f0b;
+    padding-bottom: 20px;
+}
+.about__right p{
+    margin: 30px 0 50px 0;
+    color: #6c6c6c;
+}
+.about__right li{
+    background: url(img/mark.png) 0px no-repeat;
+    padding-left: 30px;
+    margin-top: 10px;
+}
 
 
 
