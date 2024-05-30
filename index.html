@@ -13,8 +13,8 @@
                     <a href="#">Тренировки</a>
                     <a href="#">Наша команда</a>
                     <a href="#">Наши услуги</a>
-                    <a href="#">TESTIMONIALS</a>
-                    <a href="#">CONTACT</a>
+                    <a href="#">Наш Центр</a>
+                    <a href="#">Форма отправки</a>
                     <a href="#" id="menu" class="icon">&#9776</a>
                 </div>
             </nav>
@@ -161,11 +161,29 @@
                     </div>
                 </div>
 
-                <section class="contact__form">
-                    <div class="contact__wrapper">
+                <!-- Секция "Форма отправки" -->
+<div class="form-section">
+    <div class="container">
+        <h2>Персональный план питания</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="tel" name="phone" placeholder="Ваш телефон" required>
+            <input type="email" name="email" placeholder="Ваш email" required>
+            <div class="goals">
+                <input type="radio" id="weight-loss" name="goal" value="weight-loss" required>
+                <label for="weight-loss">Снижение веса</label>
+                <input type="radio" id="mass-gain" name="goal" value="mass-gain">
+                <label for="mass-gain">Набор массы</label>
+                <input type="radio" id="other" name="goal" value="other">
+                <label for="other">Другая цель</label>
+            </div>
+            <input type="checkbox" id="consent" name="consent" required>
+            <label for="consent">Я согласен на обработку моих персональных данных</label>
+            <button type="submit">Продолжить</button>
+        </form>
+    </div>
+</div>
 
-                    </div>
-                </section>
 
 
         </main>

@@ -197,6 +197,81 @@ main .main__about{
     opacity: 0.9;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* Стили для секции "Форма отправки" */
+.form-section {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.form-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.form-section input,
+.form-section button {
+    padding: 15px 20px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-section input[type="text"],
+.form-section input[type="tel"],
+.form-section input[type="email"],
+.form-section input[type="radio"],
+.form-section input[type="checkbox"] {
+    width: calc(100% - 40px);
+}
+
+.form-section input[type="radio"],
+.form-section input[type="checkbox"] {
+    margin: 10px 5px;
+}
+
+.form-section input[type="submit"] {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-section input[type="submit"]:hover {
+    background-color: #333;
+}
+
+.form-section input[type="checkbox"] + label {
+    font-size: 16px;
+}
+
+.form-section input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-section form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
 
 
