@@ -1,1 +1,1 @@
-# PracticeTed
+Что-бы нормально посмотреть сайт установи шрифт <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank" class="link link--external" rel="nofollow noopener">Тык</a>
