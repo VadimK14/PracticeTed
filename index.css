@@ -145,7 +145,8 @@ main .main__about{
 }
 .main_services h1{
      text-align: center;
-     padding: 100px 0 30px 0;
+     padding: 40px 0 30px 0;
+     font-size: 44px;
 }
 .main_services p{
     color: #6c6c6c;
@@ -160,10 +161,11 @@ main .main__about{
     background: #000;
     color: #fff;
     text-align: center;
-    padding-top: 50px;
 }
 .main__clients h1{
     padding-bottom: 20px;
+    padding-top: 50px;
+    font-size: 44px;
 }
 .main__clients h4{
     margin-bottom: 20px
@@ -192,9 +194,10 @@ main .main__about{
 }
 .main__work h1{
     margin-bottom: 30px;
+    font-size: 44px;
 }
 .main__work p{
-    margin-bottom: 175px;
+    margin-bottom: 115px;
     color:#7e7e7e;
 }
 .main__work img:hover{
@@ -204,6 +207,37 @@ main .main__about{
 .container {
     width: 80%;
     margin: 0 auto;
+}
+/* Стили для секции "Подвал" */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
 
 
