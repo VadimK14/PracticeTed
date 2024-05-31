@@ -8,3 +8,6 @@ menu.onclick = function myFunction(){
         x.className = "topnav";
     }
 }
+document.querySelector('#submit').onclick = function(){
+    alert("Ваша заявка была отправлена")
+}
